@@ -1,0 +1,123 @@
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased
+    }
+    
+    body {
+        background:url(Wow.gif);
+        background-size: 55%;
+        font-family: rubik, sans-serif
+    }
+    
+    .personal-information {
+        background: url(Wow.gif);
+        width: 500px;
+        margin: 65px auto;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        border-radius: 4px;
+        box-shadow: 0 2px 25px rgba(0, 0, 0, .2)
+    }
+    
+    .personal-information h1 {
+        padding: 35px 35px 0;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: whitesmoke;
+    }
+    
+    .personal-information .content {
+        padding: 35px;
+        text-align: center
+    }
+    
+    .personal-information .input-field {
+        padding: 12px 12px
+    }
+    
+    .personal-information .input-field input {
+        font-size: 12px;
+        display: block;
+        font-family: rubik, sans-serif;
+        width: 100%;
+        padding: 10px 1px;
+        border: 0;
+        border-bottom: 1px solid #747474;
+        outline: none;
+        -webkit-transition: all .2s;
+        transition: all .2s
+    }
+    
+    .personal-information .input-field input::-webkit-input-placeholder {
+        text-transform: uppercase
+    }
+    
+    .personal-information .input-field input::-moz-placeholder {
+        text-transform: uppercase
+    }
+    
+    .personal-information .input-field input:-ms-input-placeholder {
+        text-transform: uppercase
+    }
+    
+    .personal-information .input-field input::-ms-input-placeholder {
+        text-transform: uppercase
+    }
+    
+    .personal-information .input-field input::placeholder {
+        text-transform: uppercase
+    }
+    
+    .personal-information .input-field input:focus {
+        border-color: #222
+    }
+    
+    
+    .personal-information .action {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row
+    }
+    
+    .personal-information .action button {
+        width: 100%;
+        border: none;
+        padding: 18px;
+        font-family: rubik, sans-serif;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: #e8e9ec;
+        color: #777;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 0;
+        letter-spacing: .2px;
+        outline: 0;
+        -webkit-transition: all .3s;
+        transition: all .3s
+    }
+    
+    .personal-information .action button:hover {
+        background: #d8d8d8
+    }
+    
+    .personal-information .action button:nth-child(2) {
+        background: #2d3b55;
+        color: #fff;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 4px
+    }
+    
+    .personal-information .action button:nth-child(2):hover {
+        background: #3c4d6d
+    }
+
+

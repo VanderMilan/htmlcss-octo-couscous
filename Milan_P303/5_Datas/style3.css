@@ -1,0 +1,47 @@
+body{
+    background-image: url(Wow.gif);
+    background-size: auto;
+       color:pink;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       font-size: 20px;
+       font-weight: 300;
+       line-height: 1.65em;
+     
+   }
+.datas{
+    position: absolute;
+    right: 0;
+    left:0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 100%;
+   text-align: absolute;
+    
+        
+}
+/* .table1{
+    
+    height: 55%;
+    width: 100%;
+    margin: auto;
+    background-image: url(Wow.gif);
+     background-repeat: no-repeat;
+        text-align: absolute;
+
+        height: 60%;
+        width: 50%;
+        margin: 50;
+      
+    
+        color: white;
+        border-right:5px pink solid;
+        border-left:5px pink solid;
+        border-top:5px pink solid;
+        border-bottom:5px pink solid;
+    } */
+    
+
